@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.nuevousuario;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author juana
+ */
+public class NuevoUsuario {
+
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("--- Registro de Usuario ---");
+        System.out.print("Por favor, ingrese un nombre de usuario: ");
+        String nombreUsuario = scanner.nextLine();
+
+        System.out.println("\n¡Usuario creado exitosamente!");
+        System.out.println("Nombre de usuario registrado: " + nombreUsuario);
+
+        scanner.close(); // Siempre cierra el scanner cuando ya no lo necesites
+    }
+}

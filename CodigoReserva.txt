@@ -1,0 +1,24 @@
+package com.mycompany.reservalibro;
+
+import java.util.Scanner;
+
+
+ */
+public class ReservaLibro {
+
+      public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+ 
+        System.out.print("Ingrese el nombre del libro a reservar: ");
+        String libro = entrada.nextLine();
+        
+         
+        System.out.println("\nLibro reservado");
+        System.out.println("Libro Reservado: " + libro);
+        
+        System.out.println("\n Registro exitoso");
+        
+        entrada.close();
+    }
+}
